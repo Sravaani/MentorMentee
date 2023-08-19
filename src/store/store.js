@@ -1,8 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import getSlice from '../features/getSlice';
-
+import phoneReducer from '../reducers/phoneReducer';
 export const store = configureStore({
   reducer: {
-    getData : getSlice
+    phoneReducer,
   },
 })

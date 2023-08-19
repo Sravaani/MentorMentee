@@ -4,7 +4,7 @@ const Data = ({apiData}) => {
   return (
     <div>
         <ul>
-            {apiData[0]?.map(data => (
+            {apiData?.map(data => (
                 <li key = {data.id}>{data.title}</li>
             ))}
         </ul>
