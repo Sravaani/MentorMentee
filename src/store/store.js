@@ -4,4 +4,7 @@ export const store = configureStore({
   reducer: {
     phoneReducer,
   },
+  middleware : (getDefaultMiddleware) => getDefaultMiddleware({
+    serializableCheck : false
+  })
 })
