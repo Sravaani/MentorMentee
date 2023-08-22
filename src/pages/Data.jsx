@@ -5,7 +5,7 @@ const Data = ({apiData}) => {
     <div>
         <ul>
             {apiData?.map(data => (
-                <li key = {data.id}>{data.title}</li>
+                <li key = {data.id}>{data.title} {data.price} </li>
             ))}
         </ul>
     </div>

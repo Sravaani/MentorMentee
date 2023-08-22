@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Form from '../components/Form'
+import Form from '../components/Form';
+import { Suspense } from 'react';
 
 const Home = () => {
   return (
